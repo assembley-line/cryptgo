@@ -2,8 +2,9 @@
 
 import { useRouter } from "next/navigation";
 import { useState } from "react";
-import addNewEncryptedMessage from "@/functions/createNew";
-import CreatedNewEncryptedMessageModal from "@/app/components/modals/createdNewEncryptedMessage";
+// @ts-ignore
+import addNewEncryptedMessage from "@/functions/CreateNew";
+import CreatedNewEncryptedMessageModal from "@/app/components/modals/CreatedNewEncryptedMessage";
 import Image from "next/image";
 import logo from "../../assets/CryptGo Logo_Final.png";
 

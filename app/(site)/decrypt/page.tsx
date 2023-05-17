@@ -1,11 +1,13 @@
 "use client";
 
 import { useRouter } from "next/navigation";
-import retrieveFromCode from "@/functions/retrieveFromCode";
+// @ts-ignore
+import retrieveFromCode from "@/functions/RetrieveFromCode";
 import { HiLockOpen } from "react-icons/hi";
 import { useState } from "react";
 import Image from "next/image";
-import RetrievedNewUnencryptedMessageModal from "@/app/components/modals/retrievedNewUnencryptedMessageModal";
+// @ts-ignore
+import RetrievedNewUnencryptedMessageModal from "@/app/components/modals/RetrievedNewUnencryptedMessageModal";
 import logo from "../../assets/CryptGo Logo_Final.png";
 
 const errorMessages = {
