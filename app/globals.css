@@ -1,0 +1,14 @@
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+*{
+  -ms-overflow-style: none;
+}
+::-webkit-scrollbar {
+  display: none;
+}
+
+.newCodePopupText {
+  font-size: clamp(1.07rem, 3vw, 1.3rem); 
+}
