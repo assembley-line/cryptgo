@@ -10,5 +10,9 @@
 }
 
 .newCodePopupText {
-  font-size: clamp(1.07rem, 3vw, 1.3rem); 
+  font-size: clamp(0.5rem, 3.2vw, 1.25rem); 
+}
+
+.visiblityText {
+  font-size: clamp(0.5rem, 3.2vw, 0.9rem); 
 }
