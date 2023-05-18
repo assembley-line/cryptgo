@@ -52,7 +52,7 @@ function CreatedNewEncryptedMessageModal(props: Props) {
         <div className="flex gap-2 items-center mt-[0.8rem]">
           <MdVisibilityOff size={18} color="#bd3737" />
           <p className="text-red-600/80 text-s overflow-clip flex flex-wrap visiblityText">
-            You won't be able to see this code again.
+            You won&lsquo;t be able to see this code again.
           </p>
         </div>
       </div>
