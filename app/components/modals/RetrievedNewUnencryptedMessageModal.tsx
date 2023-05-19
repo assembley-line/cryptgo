@@ -14,7 +14,7 @@ function RetrievedNewUnencryptedMessageModal(props: Props) {
 
   return (
     <div className="absolute w-[100vw] h-[100vh] bg-black/40 flex justify-center items-center backdrop-blur">
-      <div className="w-[90%] max-w-[37rem] h-fit bg-[#1f1f24] border-[1px] border-white/20 rounded-md pt-[1.2rem] pb-3 px-[1.3rem] relative">
+      <div className="w-[90%] max-w-[37rem] h-fit bg-[#1f1f24] border-[1px] border-white/20 rounded-md pt-[1.2rem] pb-3 px-[1.3rem] relative modal-animation">
         <p className="text-white/70 font-medium text-lg">Opened a new code!</p>
         <p className="text-white/30">
           This message has now been deleted from storage

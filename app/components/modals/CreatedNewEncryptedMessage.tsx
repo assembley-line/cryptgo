@@ -26,7 +26,7 @@ function CreatedNewEncryptedMessageModal(props: Props) {
 
   return (
     <div className="absolute w-[100vw] h-[100vh] bg-black/40 flex justify-center items-center backdrop-blur">
-      <div className="w-[90%] max-w-[37rem] h-fit bg-[#1f1f24] border-[1px] border-white/20 rounded-md py-[1.2rem] px-[1.3rem] relative">
+      <div className="w-[90%] max-w-[37rem] h-fit bg-[#1f1f24] border-[1px] border-white/20 rounded-md py-[1.2rem] px-[1.3rem] relative modal-animation">
         <p className="text-white/70 font-medium text-lg">New code created!</p>
         <p className="text-white/30">Give your friend this code or copy it</p>
         <div

@@ -13,3 +13,18 @@
 body {
   overscroll-behavior: none;
 }
+
+.modal-animation {
+  animation: popIn 0.2s;
+}
+
+@keyframes popIn {
+  0% {
+    transform: scale(0.92);
+    opacity: 0.6;
+  }
+  100% {
+    transform: scale(1);
+    opacity: 1;
+  }
+}
