@@ -2,17 +2,14 @@
 @tailwind components;
 @tailwind utilities;
 
-*{
-  -ms-overflow-style: none;
-}
-::-webkit-scrollbar {
-  display: none;
-}
-
 .newCodePopupText {
   font-size: clamp(0.5rem, 3.2vw, 1.25rem); 
 }
 
 .visiblityText {
   font-size: clamp(0.5rem, 3.2vw, 0.9rem); 
+}
+
+body {
+  overscroll-behavior: none;
 }

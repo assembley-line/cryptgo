@@ -55,7 +55,7 @@ function DecryptPage() {
         message={message}
         close={() => setShowModal(false)}
       />
-      <div className="absolute top-10 left-10 flex gap-2 items-center">
+      <div className="absolute w-[100vw] top-0 p-10 flex gap-2 items-center sm:justify-start justify-center">
         <Image alt="logo" src={logo} width={40} height={40} />
         <p className="text-lg font-medium text-white">CryptGo</p>
       </div>
